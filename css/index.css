@@ -14,13 +14,14 @@ body {
     display: flex;
     background-color: skyblue;
     margin: 10px 0px 10px 0px;
-    padding: 10px 0px 10px 0px;
+    padding: 10px;
+    gap: 10px;
 }
 
 .recipe {
+    list-style: none;
     flex: 1;
     text-align: center;
     background-color: lightcyan;
-    margin: 0px 10px 0px 10px;
     padding: 20px;
 }
